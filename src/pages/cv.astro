@@ -1,0 +1,69 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Eddy Chasle - CV" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Passionné d'informatique, je suis adaptable, proactif et fiable dans
+    l'accomplissement de mes tâches.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Formations</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="BTS Service Informatique aux Organisations (SIO) / Spécialité SLAM"
+      subtitle="2023 à 2025 au Lycée de la Colinière, Nantes, France"
+    />
+    <TimeLineElement
+      title="Programme Grande École"
+      subtitle="2022 à 2023 (Non poursuivi) à Epitech, Nantes, France"
+    />
+    <TimeLineElement
+      title="Baccalauréat, mention bien / Spécialités NSI et Mathématiques, option Théatre"
+      subtitle="2019 à 2023 au Lycée Alcide d'Orbigny, Bouaye, France"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Expérience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Stage de première année - BTS SIO"
+      subtitle="Du 13/06/2024 au 28/07/2024 chez Mazedia, Saint-Herblain, France"
+    >
+      Mon travail a été d’apprendre un framework JavaScript, Angular 17. Dans le
+      but de créer une application mobile appelée Wezit Compagnon, pendant 7
+      semaines (2024).
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Compétences</div>
+  </div>
+
+  <ul class="list-disc md:columns-3 columns-2 mx-5">
+    <li>HTML5/CSS3</li>
+    <li>Python3</li>
+    <li>SQL (PostgreSQL, MySQL, MariaDB)</li>
+    <li>PHP8, Framework : Symfony, ORM Doctrine</li>
+    <li>JavaScript</li>
+    <li>TypeScript, Framework : Angular17</li>
+    <li>C</li>
+    <li>Tests Unitaires</li>
+    <li>Développement Cybersécurité : OWASP</li>
+    <li>Git - Framagit, Github</li>
+    <li>IDE - Visual Studio Code, PhpStorm</li>
+    <li>OS - Linux, Windows, IOS</li>
+    <li>Docker</li>
+  </ul>
+</BaseLayout>

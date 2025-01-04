@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Eddy Chasle - Projets" sideBarActiveItemID="projets">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Projets</div>
+  </div>
+
+  <HorizontalCard
+    title="Monster Collection"
+    img="/monstre.webp"
+    desc="Initiation à Angular 17 : Création d'un jeu de cartes à collectionner de monstres."
+    url="https://github.com/eddy8chsl/Monster-Collection.git"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Famille sécurite et confidentialité"
+    img="/secu&conf.webp"
+    desc="Initiation à HTML et CSS : Création d'un site statique sur la famille sécurité & confidentialité en groupe de 4."
+    url="https://github.com/eddy8chsl/Famille-securite-et-confidentialite.git"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Cardline"
+    img="/cardline.webp"
+    desc="Mini-projet pour créer le jeu Cardline en Python sans interface graphique."
+    url="https://github.com/eddy8chsl/Cardline.git"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Pokemon"
+    img="/pokemon.webp"
+    desc="Initiation au PHP : Création d'un site afin de trier les Pokémon en fonction de leur type."
+    url="https://github.com/eddy8chsl/Pokemon.git"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Phantom"
+    img="/phantom.webp"
+    desc="Initiation au PHP : Mise en place de liens entre les pages du site et création de tableaux pour optimiser la structure des pages HTML."
+    url="https://github.com/eddy8chsl/Phantom.git"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Todo List"
+    img="/todo.webp"
+    desc="Initiation au JavaScript : Développement d'un site de liste de tâches avec des pages dynamiques."
+    url="https://github.com/eddy8chsl/Todo-List.git"
+  />
+  <HorizontalCard
+    title="Maison du jeu"
+    img="/maison.webp"
+    desc="Finitialisation d'un site donné avec des fonctionnalités nouvelles, en équipe de trois personnes."
+    url="https://github.com/eddy8chsl/Maison-Du-Jeu.git"
+  />
+  <HorizontalCard
+    title="Jeux Olympiques"
+    img="/olympiques.webp"
+    desc="Entrainement sur la POO en python avec pour thème les jeux olympique"
+    url="https://github.com/eddy8chsl/Jeux-Olympiques.git"
+  />
+</BaseLayout>
