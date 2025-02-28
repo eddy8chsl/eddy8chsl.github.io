@@ -1,9 +1,17 @@
 ---
 title: "Stage de première année - BTS SIO | Mazedia"
 description: "Stage de première année en BTS SIO, réalisé au sein de l'entreprise Mazedia, situé à Saint-Herblain"
-pubDate: "Jul 10 2024"
+pubDate: "Feb 28 2025"
 heroImage: "/mazedia.webp"
-tags: ["Angular", "Docker", "Autonomie"]
+tags:
+  [
+    "TypeScript",
+    "Angular",
+    "Docker",
+    "Autonomie",
+    "Apprentissage",
+    "Environnement de Travail",
+  ]
 ---
 
 Pour ma première année de BTS SIO, j'ai réalisé un stage de 7 semaines en entreprise. Pour cette première expérience professionnelle,
@@ -16,11 +24,14 @@ de la vente et de la communication. Celle-ci se concentre sur l’expérience ut
 
 ---
 
-Durant mon stage, j'ai du conceptionner une application mobile nommée _Wezit Compagnon_, destinée à simplifier l'utilisation du logiciel Wezit de l'entreprise sur mobile. L'application est structurée en trois niveaux : d'abord, les entités, qui représentent les organisations en lien avec l'entreprise (clients), ensuite les applications associées à leurs activités, et enfin les différentes versions de ces applications. Cela permet aux clients d'accéder plus facilement aux programmes et contenus de leurs organisations directement depuis leurs appareils mobiles. Et pour réaliser ce projet, j'ai du utilisé le framework JavaScript, Angular (version 17).
+Durant mon stage, j'ai du conceptionner une application mobile nommée _Wezit Compagnon_, destinée à simplifier l'utilisation du logiciel _Wezit_ de l'entreprise sur mobile. L'application est structurée en trois niveaux : d'abord, les entités, qui représentent les organisations en lien avec l'entreprise (clients), ensuite les applications associées à leurs activités, et enfin les différentes versions de ces applications. Cela permet aux clients d'accéder plus facilement aux programmes et contenus de leurs organisations directement depuis leurs appareils mobiles. Et pour réaliser ce projet, j'ai du utilisé le framework TypeScript, Angular (version 17).
 
-![wezit homepage](/wezit_homepage.webp)
-![wezit application](/wezit_application.webp)
-![wezit version](/wezit_version.webp)
+**_Prototype Design de l'application Wezit_**
+
+![wezit original connection](/wezit_original_connection.webp)
+![wezit original homepage](/wezit_original_homepage.webp)
+![wezit original application](/wezit_original_application.webp)
+![wezit original version](/wezit_original_version.webp)
 
 **Qu'est-ce que l'Angular ?**
 
@@ -44,6 +55,11 @@ Keycloak-Angular est une bibliothèque qui permet d'intégrer facilement Keycloa
 
 Par la suite, j'ai continué d'alimenter le projet jusqu'à la sixième semaine, en intégrant d'abord les données de l'entreprise pour relier directement les entités à leurs applications correspondant. J'ai également ajouté des fonctionnalités, telles que la possibilité de trier les versions des applications en fonction des différentes plateformes (Android, iOS, Unity, etc.), ainsi que la création de pop-ups expliquant comment installer les applications sur chacune de ces plateformes.
 
+**_Résultat de ma réalisation de l'application Wezit_**
+
+![wezit homepage](/wezit_homepage.webp)
+![wezit application](/wezit_application.webp)
+![wezit version](/wezit_version.webp)
 ![wezit pop-ups](/wezit_pop-ups.webp)
 
 Et enfin, lors de la septième et dernière semaine, j'ai dû me familiariser avec les bases de Docker pour préparer la mise en production de _Wezit Compagnon_ et garantir son exploitation sur n'importe quelle plateforme dont principalement sur Androis et IOS.
