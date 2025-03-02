@@ -3,7 +3,7 @@ title: "Veille Informatique"
 description: "Renseignements sur le secteur de l'informatique avec l'appui des veilles informatiques"
 pubDate: "Feb 15 2025"
 heroImage: "/veille_info.webp"
-tags: ["Curiosité", "Information"]
+tags: ["Curiosité", "Information", "Actualité"]
 ---
 
 Dans le domaine du développement et de l’informatique en général, il est primordial de se tenir informé des dernières tendances, outils et bonnes pratiques. Pour cela, j’ai adopté plusieurs méthodes afin d’assurer une veille technologique efficace et régulière.
@@ -15,7 +15,7 @@ Tout d’abord, je m’abonne à plusieurs newsletters spécialisées, notamment
 JavaScript Weekly : Une newsletter incontournable pour rester à jour sur l’écosystème JavaScript, les nouvelles bibliothèques et frameworks ainsi que les bonnes pratiques du développement front-end et back-end.
 
 ![javascript_gmail](/javascript_gmail.webp)
-![javascript_article](/javascript_article.webp)
+![python_article](/python_article.webp)
 
 ---
 
@@ -30,6 +30,7 @@ Real Python : Une ressource précieuse pour perfectionner mes compétences en Py
 
 ![python_gmail](/python_gmail.webp)
 ![python_article](/python_article.webp)
+![javascript_article](/javascript_article.webp)
 
 ---
 

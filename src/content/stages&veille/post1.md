@@ -41,7 +41,7 @@ Angular facilite le développement de grandes applications web tout en assurant 
 
 ---
 
-Lors de ma première semaine de stage, n'ayant aucune expérience avec ce framework, l'entreprise m'a donné une totale autonomie pour découvrir l'Angular 17. Pour cela, j'ai réalisé un mini-projet de cartes à collectionner de monstres en suivant des tutoriels de la chaîne YouTube [SimpleTeck](https://www.youtube.com/@SimpleTechProd). Voici mon projet : [Monster Collection](https://github.com/eddy8chsl/Monster-Collection.git).
+Lors de ma première semaine de stage, n'ayant aucune expérience avec ce framework, mon maître de stage m'a donné une totale autonomie dans l'apprentisage du framework Angular. Pour cela, j'ai réalisé un mini-projet de cartes à collectionner de monstres en suivant des tutoriels de la chaîne YouTube [SimpleTeck](https://www.youtube.com/@SimpleTechProd). Voici mon projet : [Monster Collection](https://github.com/eddy8chsl/Monster-Collection.git).
 
 Ensuite, durant ma deuxième semaine, j'ai commencé à concevoir les bases de l'application en utilisant mes propres données (entités, applications, versions). En parallèle, avec mon maître de stage, nous avons intégré un espace de connexion, déjà créé par l'entreprise, en utilisant Keycloak-Angular.
 
