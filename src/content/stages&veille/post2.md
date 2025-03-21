@@ -3,6 +3,17 @@ title: "Stage de deuxième année - BTS SIO | Casier Judiciaire National"
 description: "Stage de dexième année en BTS SIO, réalisé au sein du pôle informatique du Casier Judiciaire National, situé à Nantes"
 pubDate: "Feb 28 2025"
 heroImage: "/casier_judiciaire.webp"
+tags:
+  [
+    "PHP",
+    "Laravel",
+    "TailwindCSS",
+    "Boostrap",
+    "LiveWire",
+    "Autonomie",
+    "Apprentissage",
+    "Environnement de Travail",
+  ]
 ---
 
 Pour ma deuxième année de BTS SIO, j'ai réalisé un stage de 7 semaines. Pour cette seconde expérience professionnelle,
@@ -15,7 +26,7 @@ Celle-ci enregistre les condamnations pénales, certaines décisions administrat
 
 ---
 
-Dans le cadre de mon stage au pôle informatique du Casier Judiciaire National, j'ai eu pour mission d'optimiser le processus d’authentification de l’intranet de l’organisation, _Nova_. Concrètement, j’ai été chargé de concevoir un formulaire de demande permettant aux utilisateurs de l'intranet de s’authentifier avec leurs identifiants de connexion des comptes personnels Justice (AD), des postes informatiques, au lieu des identifiants spécifiques à _Nova_.
+Dans le cadre de mon stage au pôle informatique du Casier Judiciaire National, j'ai eu pour mission d'optimiser le processus d’authentification de l’intranet de l’organisation, _Nova_. Concrètement, j’ai été chargé de concevoir un formulaire de demande permettant aux utilisateurs de l'intranet de s’authentifier avec leur Kerberos, l'identifiant des postes informatiques personnels des agents, au lieu des identifiants spécifiques à _Nova_.
 De plus, j'ai dû réaliser une application tier afin d’approuver ou de refuser ces demandes d’accès avec un tableau de bord, à l'équipe informatique du Casier Judiciaire.
 Cette solution permet alors de simplifier l'accès des agents à l'intranet en utilisant une solution plus adaptative et ergonomique.
 Pour mener à bien ma tâche, j’ai dû appréhender un nouveau FrameWork PHP, Laravel.
@@ -51,19 +62,45 @@ Tailwind CSS est un framework CSS utilitaire qui permet de concevoir rapidement 
 
 ---
 
-Pour ma deuxième semaine, je me suis lancé dans la réalisation de ma mission donnée avec tout d'abord les fonctionnalités du CRUD. C'est-à-dire, une page dédiée à la création des demandes, à la visualisation des requêtes (tableau de bord) et leurs détails, ainsi qu'à la possibilité d'éditer et supprimer une requête spécifique.
-Avec un commencement, d'un aspect graphique avec Boostrap pour un meilleur rendu visuel.
-
-[Photo]
+Ultérieurement, pour ma deuxième semaine, je me suis lancé dans la réalisation de ma mission donnée avec tout d'abord les fonctionnalités du CRUD. C'est-à-dire, une page dédiée à la création des demandes, à la visualisation des requêtes (tableau de bord) et leurs détails, ainsi qu'à la possibilité d'éditer et supprimer une requête spécifique.
+De plus, à côté de ma tâche pricipal, j'ai pu integrer un meilleur aspect graphique pour l'application avec Bootstrap, afin d'améliorer le rendu visuel.
 
 **Qu'est-ce que Boostrap ?**
 
 Bootstrap est un framework CSS open-source qui permet de créer des interfaces web réactives et attrayantes de manière rapide et efficace. Il fournit notamment une collection de composants préconçus (boutons, formulaires, cartes, menus, etc.) ainsi qu'un système de grille flexible pour organiser le contenu sur différentes tailles d'écran. Celui-ci est similaire à Tailwind CSS.
 
+**_Formulaire utilisateur (public)_**
+
+![cerber index](/cerber_index.webp)
+![cerber create public](/cerber_create_public.webp)
+
+**_Formulaire administrateur (avec Karberos, vu plus tard)_**
+
+![cerber create](/cerber_create.webp)
+
+![cerber tableau](/cerber_tableau.webp)
+![cerber show](/cerber_show.webp)
+![cerber edit](/cerber_edit.webp)
+
 ---
 
-Par la suite, lors de ma troisième semaine, j'ai enrichi le système de gestion des demandes en ajoutant de nouvelles fonctionnalités visant à optimiser son utilisation. J'ai notamment développé une page dédiée à la gestion des disponibilités des agents informatiques, permettant de recevoir ou non les notifications par e-mail concernant les demandes d'accès. D'un autre côté, j'ai mis en place un filtre sur le tableau de bord, permettant de trier les demandes en fonction de leur degré d'urgence, du nom des demandeurs et de leur date de création.
+Ensuite, lors de ma troisième semaine, j'ai enrichi le système de gestion des demandes en ajoutant de nouvelles fonctionnalités visant à optimiser son utilisation. J'ai notamment développé une page dédiée à la gestion des disponibilités des agents informatiques, permettant de recevoir ou non les notifications par e-mail concernant les demandes d'accès. D'un autre côté, j'ai mis en place un filtre sur le tableau de bord, permettant de trier les demandes en fonction de leur degré d'urgence, du nom des demandeurs et de leur date de création.
 
-[Photo]
+![cerber agents](/cerber_agents.webp)
+
+**_Filtrage par requête urgente et prénom par odre alphabétique_**
+![cerber filter](/cerber_filter.webp)
 
 Par ailleurs, j'ai également eu la chance d'assister à une réunion au Rubix, une annexe du Casier Judiciaire National qui travaille sur des projets nationaux et internationaux (notamment au niveau de l'Union Européenne) portés par le Casier Judiciaire National comme Astréa. Un logiciel permettant de référencer et de visualiser l'ensemble des documents judiciaires sur le territoire français.
+
+---
+
+Par la suite, lors de ma quatrième semaine, avec mon maître de stage, nous avons mis en place un système de reconnaissance avec le Kerberos, l'identifiant des appareils informatiques des agents. Cette solution permet, dans un premier temps, de vérifier si un agent a déjà soumis une demande de connexion. Et si cela est le cas, au lieu d’initier une nouvelle requête, il sera automatiquement redirigé vers la page récapitulative de sa demande existante.
+
+![cerber recap](/cerber_recap.webp)
+
+De plus, afin d'améliorer la fluidité de l'application, je me suis initié au Livewire, une extension pour le framework Laravel.
+
+**Qu'est-ce que LiveWire ?**
+
+Livewire est un framework full-stack pour Laravel qui permet de créer des interfaces utilisateur dynamiques sans avoir besoin de JavaScript. Il permet de gérer des composants interactifs directement en PHP, en synchronisant les mises à jour de l'interface avec le serveur de manière fluide via AJAX.
