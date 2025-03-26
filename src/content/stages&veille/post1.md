@@ -15,16 +15,16 @@ tags:
 ---
 
 Pour ma première année de BTS SIO, j'ai réalisé un stage de 7 semaines en entreprise. Pour cette première expérience professionnelle,
-j'ai intégré Mazedia, une société située à Saint-Herblain.
+j'ai intégré _Mazedia_, une société située à Saint-Herblain.
 
 **Qu'est-ce que Mazedia ?**
 
-Mazedia, fondée en 1994, est une entreprise spécialisée dans la conception et le développement d'outils numériques pour les secteurs de la culture,
-de la vente et de la communication. Celle-ci se concentre sur l’expérience utilisateur, en combinant créativité et expertise technique pour proposer des solutions telles que des bornes interactives ou des applications mobiles. De plus, Mazedia met à disposition un logiciel, appelé Wezit, permettant aux clients d’administrer les contenus de tous les types de programmes de médiation pour les expositions, optimisant ainsi l'interactivité et l'engagement des visiteurs dans les lieux culturels.
+_Mazedia_, fondée en 1994, est une entreprise spécialisée dans la conception et le développement d'outils numériques pour les secteurs de la culture,
+de la vente et de la communication. Celle-ci se concentre sur l’expérience utilisateur, en combinant créativité et expertise technique pour proposer des solutions telles que des bornes interactives ou des applications mobiles. De plus, _Mazedia_ met à disposition un logiciel, appelé **Wezit**, permettant aux clients d’administrer les contenus de tous les types de programmes de médiation pour les expositions, optimisant ainsi l'interactivité et l'engagement des visiteurs dans les lieux culturels.
 
 ---
 
-Durant mon stage, j'ai du conceptionner une application mobile nommée _Wezit Compagnon_, destinée à simplifier l'utilisation du logiciel _Wezit_ de l'entreprise sur mobile. L'application est structurée en trois niveaux : d'abord, les entités, qui représentent les organisations en lien avec l'entreprise (clients), ensuite les applications associées à leurs activités, et enfin les différentes versions de ces applications. Cela permet aux clients d'accéder plus facilement aux programmes et contenus de leurs organisations directement depuis leurs appareils mobiles. Et pour réaliser ce projet, j'ai du utilisé le framework TypeScript, Angular (version 17).
+Durant mon stage, j'ai du conceptionner une application mobile nommée **Wezit Compagnon**, destinée à simplifier l'utilisation du logiciel **Wezit** de l'entreprise sur mobile. L'application est structurée en trois niveaux : d'abord, les entités, qui représentent les organisations en lien avec l'entreprise (clients), ensuite les applications associées à leurs activités, et enfin les différentes versions de ces applications. Cela permet aux clients d'accéder plus facilement aux programmes et contenus de leurs organisations directement depuis leurs appareils mobiles. Et pour réaliser ce projet, j'ai du utilisé le framework TypeScript, Angular (version 17).
 
 **_Prototype Design de l'application Wezit_**
 
@@ -42,6 +42,14 @@ Angular facilite le développement de grandes applications web tout en assurant 
 ---
 
 Lors de ma première semaine de stage, n'ayant aucune expérience avec ce framework, mon maître de stage m'a donné une totale autonomie dans l'apprentisage du framework Angular. Pour cela, j'ai réalisé un mini-projet de cartes à collectionner de monstres en suivant des tutoriels de la chaîne YouTube [SimpleTeck](https://www.youtube.com/@SimpleTechProd). Voici mon projet : [Monster Collection](https://github.com/eddy8chsl/Monster-Collection.git).
+
+![monster index](/monster_index.webp)
+
+**_Filtre par type_**
+![monster filter by type](/monster_filter_by_type.webp)
+
+**_Filtre par nom_**
+![monster filter by search](/monster_filter_by_search.webp)
 
 Ensuite, durant ma deuxième semaine, j'ai commencé à concevoir les bases de l'application en utilisant mes propres données (entités, applications, versions). En parallèle, avec mon maître de stage, nous avons intégré un espace de connexion, déjà créé par l'entreprise, en utilisant Keycloak-Angular.
 
@@ -62,7 +70,7 @@ Par la suite, j'ai continué d'alimenter le projet jusqu'à la sixième semaine,
 ![wezit version](/wezit_version.webp)
 ![wezit pop-ups](/wezit_pop-ups.webp)
 
-Et enfin, lors de la septième et dernière semaine, j'ai dû me familiariser avec les bases de Docker pour préparer la mise en production de _Wezit Compagnon_ et garantir son exploitation sur n'importe quelle plateforme dont principalement sur Androis et IOS.
+Et enfin, lors de la septième et dernière semaine, j'ai dû me familiariser avec les bases de Docker pour préparer la mise en production de **Wezit Compagnon** et garantir son exploitation sur n'importe quelle plateforme dont principalement sur Androis et IOS.
 
 **Qu'est ce que Docker ?**
 
@@ -70,4 +78,4 @@ Docker est un outil qui permet de créer, déployer et gérer des applications d
 
 ---
 
-Pour conclure, ce stage chez Mazedia m'a permis de développer mes compétences techniques, notamment en Angular et Docker, ainsi que de mieux comprendre le processus de développement d'une application en sein d'un environnement professionnel. Grâce à cette expérience, j'ai non seulement renforcé mes connaissances en programmation, mais j'ai aussi appris à gérer un projet en toute autonomie. Ce stage a été une étape clé dans ma formation, et m'a conforté dans mon choix de carrière dans le domaine du développement informatique.
+Pour conclure, ce stage chez _Mazedia_ m'a permis de développer mes compétences techniques, notamment en Angular et Docker, ainsi que de mieux comprendre le processus de développement d'une application en sein d'un environnement professionnel. Grâce à cette expérience, j'ai non seulement renforcé mes connaissances en programmation, mais j'ai aussi appris à gérer un projet en toute autonomie. Ce stage a été une étape clé dans ma formation, et m'a conforté dans mon choix de carrière dans le domaine du développement informatique.

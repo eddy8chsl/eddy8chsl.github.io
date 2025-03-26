@@ -1,7 +1,7 @@
 ---
 title: "Stage de deuxième année - BTS SIO | Casier Judiciaire National"
 description: "Stage de dexième année en BTS SIO, réalisé au sein du pôle informatique du Casier Judiciaire National, situé à Nantes"
-pubDate: "Feb 28 2025"
+pubDate: "Apr 18 2025"
 heroImage: "/casier_judiciaire.webp"
 tags:
   [
@@ -17,7 +17,7 @@ tags:
 ---
 
 Pour ma deuxième année de BTS SIO, j'ai réalisé un stage de 7 semaines. Pour cette seconde expérience professionnelle,
-j'ai intégré le Casier Judiciaire National, une institution gouvernementale à Nantes.
+j'ai intégré le _Casier Judiciaire National_, une institution gouvernementale à Nantes.
 
 **Qu'est-ce que le Casier Judiciaire National ?**
 
@@ -26,14 +26,16 @@ Celle-ci enregistre les condamnations pénales, certaines décisions administrat
 
 ---
 
-Dans le cadre de mon stage au pôle informatique du Casier Judiciaire National, j'ai eu pour mission d'optimiser le processus d’authentification de l’intranet de l’organisation, _Nova_. Concrètement, j’ai été chargé de concevoir un formulaire de demande permettant aux utilisateurs de l'intranet de s’authentifier avec leur Kerberos, l'identifiant des postes informatiques personnels des agents, au lieu des identifiants spécifiques à _Nova_.
-De plus, j'ai dû réaliser une application tier afin d’approuver ou de refuser ces demandes d’accès avec un tableau de bord, à l'équipe informatique du Casier Judiciaire.
-Cette solution permet alors de simplifier l'accès des agents à l'intranet en utilisant une solution plus adaptative et ergonomique.
+Dans le cadre de mon stage au pôle assistance technique et fonctionnelle (PATF) du _Casier Judiciaire National_, j'ai eu pour mission, d'optimiser le processus d’authentification de l’intranet de l’organisation, **Nova**. Concrètement, j’ai été chargé de concevoir un formulaire de demande permettant aux utilisateurs de l'intranet de s’authentifier avec leur Kerberos, l'identifiant des postes informatiques personnels des agents, au lieu des identifiants spécifiques à **Nova**.
+De plus, j'ai dû réaliser une fonctionnalité tier afin d’approuver ou de refuser ces demandes d’accès avec un tableau de bord, à l'équipe informatique du _Casier Judiciaire_.
+Cette solution, nommée **Cerber**, permet alors de simplifier l'accès des agents à l'intranet en utilisant une solution plus adaptative et ergonomique.
 Pour mener à bien ma tâche, j’ai dû appréhender un nouveau FrameWork PHP, Laravel.
 
 **Qu'est-ce que Laravel ?**
 
 Laravel est un framework PHP open-source, conçu pour le développement d’applications web structurées et évolutives. Il se repose notamment sur une architecture MVC (Modèle-Vue-Contrôleur) et propose un écosystème complet facilitant la gestion des bases de données, l’authentification, le routage et le rendu des vues. Son interface intuitive et ses nombreuses fonctionnalités intégrées, permettent d’optimiser le développement tout en garantissant une sécurité et une évolutivité adaptées aux exigences des projets web.
+
+Également, afin de suivre mon avancement et celle de l'équipe, j'ai assisté chaque jeudi au réunion PATF. Ces rassemblements permettent de suivre l’avancement de chacun et d’avoir une vision globale des projets en cours, notamment à travers des démonstrations techniques. Par la suite, au fur et à mesure de l’avancement de ma mission, j’ai eu l’occasion de participer à ces réunions en réalisant des démonstrations de mon projet.
 
 ---
 
@@ -63,6 +65,11 @@ Tailwind CSS est un framework CSS utilitaire qui permet de concevoir rapidement 
 ---
 
 Ultérieurement, pour ma deuxième semaine, je me suis lancé dans la réalisation de ma mission donnée avec tout d'abord les fonctionnalités du CRUD. C'est-à-dire, une page dédiée à la création des demandes, à la visualisation des requêtes (tableau de bord) et leurs détails, ainsi qu'à la possibilité d'éditer et supprimer une requête spécifique.
+
+**_Gestion du projet Cerber_**
+
+![cerber gestion](/cerber_gestion.webp)
+
 De plus, à côté de ma tâche pricipal, j'ai pu integrer un meilleur aspect graphique pour l'application avec Bootstrap, afin d'améliorer le rendu visuel.
 
 **Qu'est-ce que Boostrap ?**
@@ -91,7 +98,8 @@ Ensuite, lors de ma troisième semaine, j'ai enrichi le système de gestion des 
 **_Filtrage par requête urgente et prénom par odre alphabétique_**
 ![cerber filter](/cerber_filter.webp)
 
-Par ailleurs, j'ai également eu la chance d'assister à une réunion au Rubix, une annexe du Casier Judiciaire National qui travaille sur des projets nationaux et internationaux (notamment au niveau de l'Union Européenne) portés par le Casier Judiciaire National comme Astréa. Un logiciel permettant de référencer et de visualiser l'ensemble des documents judiciaires sur le territoire français.
+Par ailleurs, j'ai également eu la chance d'assister à une réunion appelée PI PLanning au _Rubix_, une annexe du _Casier Judiciaire National_ qui travaille sur des projets nationaux et internationaux, notamment au niveau de l'Union Européenne, portés par le _Casier Judiciaire National_. Parmi ces projets figure **Astréa**, un logiciel permettant de référencer et de visualiser l’ensemble des documents judiciaires sur le territoire français.
+Ce rassemblement permet à l'ensemble des équipes de synchroniser, planifier les travaux, identifier les risques et s'engager sur la réalisation d'un résultat commun jusqu'au prochain PI Planning qui à lieu tous les trois mois.
 
 ---
 
