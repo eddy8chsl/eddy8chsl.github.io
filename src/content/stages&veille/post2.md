@@ -10,9 +10,10 @@ tags:
     "TailwindCSS",
     "Boostrap",
     "LiveWire",
-    "Autonomie",
-    "Apprentissage",
-    "Environnement de Travail",
+    "Laragon",
+    "NGINX",
+    "PostgreSQL",
+    "Visual Studio Code",
   ]
 ---
 
