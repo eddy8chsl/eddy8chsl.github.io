@@ -3,7 +3,16 @@ title: "Stage de première année - BTS SIO | Mazedia"
 description: "Stage de première année en BTS SIO, réalisé au sein de l'entreprise Mazedia, situé à Saint-Herblain"
 pubDate: "Feb 28 2025"
 heroImage: "/mazedia.webp"
-tags: ["TypeScript", "Angular", "Docker", "Visual Studio Code"]
+tags:
+  [
+    "TypeScript",
+    "Angular",
+    "HTML",
+    "CSS",
+    "Docker",
+    "Visual Studio Code",
+    "GitHub",
+  ]
 ---
 
 Pour ma première année de BTS SIO, j'ai réalisé un stage de 7 semaines en entreprise. Pour cette première expérience professionnelle,

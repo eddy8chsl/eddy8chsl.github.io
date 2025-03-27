@@ -6,6 +6,8 @@ heroImage: "/casier_judiciaire.webp"
 tags:
   [
     "PHP",
+    "HTML",
+    "CSS",
     "Laravel",
     "TailwindCSS",
     "Boostrap",
@@ -14,6 +16,7 @@ tags:
     "NGINX",
     "PostgreSQL",
     "Visual Studio Code",
+    "GitLab",
   ]
 ---
 
@@ -113,3 +116,5 @@ De plus, afin d'améliorer la fluidité de l'application, je me suis initié au 
 **Qu'est-ce que LiveWire ?**
 
 Livewire est un framework full-stack pour Laravel qui permet de créer des interfaces utilisateur dynamiques sans avoir besoin de JavaScript. Il permet de gérer des composants interactifs directement en PHP, en synchronisant les mises à jour de l'interface avec le serveur de manière fluide via AJAX.
+
+---
