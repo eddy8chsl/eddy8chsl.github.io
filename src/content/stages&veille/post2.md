@@ -31,7 +31,7 @@ Celle-ci enregistre les condamnations pénales, certaines décisions administrat
 
 ---
 
-Dans le cadre de mon stage au pôle assistance technique et fonctionnelle (PATF) du _Casier Judiciaire National_, j'ai eu pour mission, d'optimiser le processus d’authentification de l’intranet de l’organisation, **Nova**. Concrètement, j’ai été chargé de concevoir un formulaire de demande permettant aux utilisateurs de l'intranet de s’authentifier avec leur Kerberos, l'identifiant des postes informatiques personnels des agents, au lieu des identifiants spécifiques à **Nova**.
+Dans le cadre de mon stage au pôle assistance technique et fonctionnelle (PATF) du _Casier Judiciaire National_, j'ai eu pour mission, d'optimiser le processus d’authentification de l’intranet de l’organisation, **Nova**. Concrètement, j’ai été chargé de concevoir un formulaire de demande permettant aux utilisateurs de l'intranet d'être reconnu par leur session windows(SSO), au lieu de saisir des identifiants spécifiques à **Nova**.
 De plus, j'ai dû réaliser une fonctionnalité tier afin d’approuver ou de refuser ces demandes d’accès avec un tableau de bord, à l'équipe informatique du _Casier Judiciaire_.
 Cette solution, nommée **Cerber**, permet alors de simplifier l'accès des agents à l'intranet en utilisant une solution plus adaptative et ergonomique.
 Pour mener à bien ma tâche, j’ai dû appréhender un nouveau FrameWork PHP, Laravel.
@@ -48,7 +48,7 @@ Pour ma première semaine de stage, n'ayant aucune expérience avec Laravel, mon
 
 Dans un premier temps, j'ai développé un premier projet afin de mieux appréhender les bases techniques de Laravel dont les policies, le CRUD (Create, Read, Update, Delete), les relations, les factories, les seeders, etc.
 
-**_Project Example_**
+[**_Project Example_**](https://github.com/eddy8chsl/example.git)
 
 ![example index jobs](/example_index_jobs.webp)
 ![example create job](/example_create_job.webp)
@@ -59,7 +59,7 @@ Dans un premier temps, j'ai développé un premier projet afin de mieux appréhe
 
 Ensuite, j'ai réalisé un deuxième projet en Laravel. Mais, cette fois-ci, me concentrant principalement sur l'aspect graphique, en utilisant le CSS avec Tailwind.
 
-**_Project Pixel-Position_**
+[**_Project Pixel-Position_**](https://github.com/eddy8chsl/pixel-position.git)
 
 ![pixel position](/pixel-position.webp)
 
@@ -108,7 +108,7 @@ Ce rassemblement permet à l'ensemble des équipes de synchroniser, planifier le
 
 ---
 
-Par la suite, lors de ma quatrième semaine, avec mon maître de stage, nous avons mis en place un système de reconnaissance avec le Kerberos, l'identifiant des appareils informatiques des agents. Cette solution permet, dans un premier temps, de vérifier si un agent a déjà soumis une demande de connexion. Et si cela est le cas, au lieu d’initier une nouvelle requête, il sera automatiquement redirigé vers la page récapitulative de sa demande existante.
+Par la suite, lors de ma quatrième semaine, avec mon maître de stage, nous avons mis en place un système de reconnaissance avec des sessions windows des agents. Cette solution permet, dans un premier temps, de vérifier si un agent a déjà soumis une demande de connexion. Et si cela est le cas, au lieu d’initier une nouvelle requête, il sera automatiquement redirigé vers la page récapitulative de sa demande existante.
 
 ![cerber recap](/cerber_recap.webp)
 
@@ -116,6 +116,6 @@ De plus, afin d'améliorer la fluidité de l'application, je me suis initié au 
 
 **Qu'est-ce que LiveWire ?**
 
-Livewire est un framework full-stack pour Laravel qui permet de créer des interfaces utilisateur dynamiques sans avoir besoin de JavaScript. Il permet de gérer des composants interactifs directement en PHP, en synchronisant les mises à jour de l'interface avec le serveur de manière fluide via AJAX.
+Livewire est un framework full-stack pour Laravel qui permet de créer des interfaces utilisateur dynamiques sans avoir besoin de JavaScript. Il permet de gérer des composants interactifs directement en PHP, en synchronisant les mises à jour de l'interface avec le serveur de manière fluide via AJAX (effectuer des requêtes sans avoir à afficher une nouvelle page complète).
 
 ---
