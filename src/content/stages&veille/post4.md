@@ -3,7 +3,7 @@ title: "BONUS | Ministages"
 description: "Optimisation d'un site de réservation de mini-stages sur le territoire de la Loire-Atlantique et de ces environs."
 pubDate: "Feb 15 2025"
 heroImage: "/ministages_logo.webp"
-tags: ["PHP", "Symphony", "Travail d'équipe", "Autonomie", "Apprentissage"]
+tags: ["PHP", "Symphony", "PhpStorm", "FramaGit", "PostgreSQL", "DBeaver"]
 ---
 
 Lors de ma deuxième année de BTS SIO, notre promotion a collaboré tout au long de l'année avec un porteur de projet sur l'optimisation d'un site web nommée **Mini-stages 44**.

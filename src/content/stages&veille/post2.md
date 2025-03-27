@@ -15,6 +15,7 @@ tags:
     "Laragon",
     "NGINX",
     "PostgreSQL",
+    "DBeaver",
     "Visual Studio Code",
     "GitLab",
   ]
