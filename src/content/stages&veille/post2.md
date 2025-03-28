@@ -57,7 +57,7 @@ Dans un premier temps, j'ai développé un premier projet afin de mieux appréhe
 ![example login](/example_login.webp)
 ![example register](/example_register.webp)
 
-Ensuite, j'ai réalisé un deuxième projet en Laravel. Mais, cette fois-ci, me concentrant principalement sur l'aspect graphique, en utilisant le CSS avec Tailwind.
+Ensuite, j'ai réalisé un deuxième projet en Laravel. Mais, cette fois-ci, me concentrant principalement sur l'aspect graphique, en utilisant le CSS avec [Tailwind CSS](https://tailwindcss.com).
 
 [**_Project Pixel-Position_**](https://github.com/eddy8chsl/pixel-position.git)
 
@@ -75,7 +75,7 @@ Ultérieurement, pour ma deuxième semaine, je me suis lancé dans la réalisati
 
 ![cerber gestion](/cerber_gestion.webp)
 
-De plus, à côté de ma tâche pricipal, j'ai pu integrer un meilleur aspect graphique pour l'application avec Bootstrap, afin d'améliorer le rendu visuel.
+De plus, à côté de ma tâche pricipal, j'ai pu integrer un meilleur aspect graphique pour l'application avec [Bootstrap](https://getbootstrap.com), afin d'améliorer le rendu visuel.
 
 **Qu'est-ce que Boostrap ?**
 
@@ -106,16 +106,27 @@ Ensuite, lors de ma troisième semaine, j'ai enrichi le système de gestion des 
 Par ailleurs, j'ai également eu la chance d'assister à une réunion appelée PI PLanning au _Rubix_, une annexe du _Casier Judiciaire National_ qui travaille sur des projets nationaux et internationaux, notamment au niveau de l'Union Européenne, portés par le _Casier Judiciaire National_. Parmi ces projets figure **Astréa**, un logiciel permettant de référencer et de visualiser l’ensemble des documents judiciaires sur le territoire français.
 Ce rassemblement permet à l'ensemble des équipes de synchroniser, planifier les travaux, identifier les risques et s'engager sur la réalisation d'un résultat commun jusqu'au prochain PI Planning qui à lieu tous les trois mois.
 
+![PI planning](/pi_planning.webp)
+
 ---
 
 Par la suite, lors de ma quatrième semaine, avec mon maître de stage, nous avons mis en place un système de reconnaissance avec des sessions windows des agents. Cette solution permet, dans un premier temps, de vérifier si un agent a déjà soumis une demande de connexion. Et si cela est le cas, au lieu d’initier une nouvelle requête, il sera automatiquement redirigé vers la page récapitulative de sa demande existante.
 
 ![cerber recap](/cerber_recap.webp)
 
-De plus, afin d'améliorer la fluidité de l'application, je me suis initié au Livewire, une extension pour le framework Laravel.
+De plus, afin d'améliorer la fluidité de l'application, je me suis initié au [Livewire](https://laravel-livewire.com), une extension pour le framework Laravel.
 
 **Qu'est-ce que LiveWire ?**
 
-Livewire est un framework full-stack pour Laravel qui permet de créer des interfaces utilisateur dynamiques sans avoir besoin de JavaScript. Il permet de gérer des composants interactifs directement en PHP, en synchronisant les mises à jour de l'interface avec le serveur de manière fluide via AJAX (effectuer des requêtes sans avoir à afficher une nouvelle page complète).
+Livewire est un framework full-stack pour Laravel qui permet de créer des interfaces utilisateur dynamiques sans avoir besoin de JavaScript. Il permet de gérer des composants interactifs directement en PHP, en synchronisant les mises à jour de l'interface avec le serveur de manière fluide via AJAX (effectuer des requêtes sans avoir afficher une nouvelle page complète).
+
+---
+
+En continuant avec Livewire, lors de ma cinquième semaine de stage, j’ai pu optimiser la fluidité des requêtes au sein de mon projet **Cerber**.
+Notamment en améliorant l’affichage de la disponibilité des cartes d’agents, dès qu'un agent met à jour son statut, inoccupé ou bien indisponible, son changement sera effectué sans le besoin nécessaire de recharger la page concernée.
+De plus, j'ai bonifié le système de filtrage, permettant à l'équipe du PATF d’affiner leurs recherches plus rapidement.
+Enfin, pour alléger l’affichage en cas de nombreuses demandes, j’ai intégré une pagination dynamique. Cela garantit ainsi une meilleure lisibilité et une navigation plus fluide au sein du tableau de bord.
+
+![cerber pagination](/cerber_pagination.webp)
 
 ---
