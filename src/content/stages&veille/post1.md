@@ -10,6 +10,7 @@ tags:
     "HTML",
     "CSS",
     "Docker",
+    "Jenkins",
     "Visual Studio Code",
     "GitHub",
   ]
@@ -76,6 +77,12 @@ Et enfin, lors de la septième et dernière semaine, j'ai dû me familiariser av
 **Qu'est ce que Docker ?**
 
 Docker est un outil qui permet de créer, déployer et gérer des applications dans des conteneurs. Un conteneur regroupe tout ce dont une application a besoin pour fonctionner (code, dépendances, configuration), ce qui la rend facilement transportable et exécutable sur n'importe quel environnement. Cela simplifie le déploiement, évite les conflits entre environnements et garantit que l'application fonctionne de la même manière partout.
+
+Par la suite, l'équipe de développement a mis en production l'application **Wezit Compagon** sur les serveurs de l'entreprise à l'aide de Jenkins, garantissant ainsi sa disponibilité en continu donc notamment sur Android et IOS.
+
+**Qu'est-ce que Jenkins ?**
+
+Jenkins est un outil open source de serveur d'automatisation. Il aide à automatiser les parties du développement logiciel liées au build, aux tests et au déploiement, et facilite l'intégration continue et la livraison continue.
 
 ---
 
