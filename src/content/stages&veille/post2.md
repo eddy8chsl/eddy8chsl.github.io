@@ -9,6 +9,8 @@ tags:
     "HTML",
     "CSS",
     "Laravel",
+    "JavaScript",
+    "Tom Select",
     "TailwindCSS",
     "Boostrap",
     "LiveWire",
@@ -128,5 +130,17 @@ De plus, j'ai bonifié le système de filtrage, permettant à l'équipe du PATF 
 Enfin, pour alléger l’affichage en cas de nombreuses demandes, j’ai intégré une pagination dynamique. Cela garantit ainsi une meilleure lisibilité et une navigation plus fluide au sein du tableau de bord.
 
 ![cerber pagination](/cerber_pagination.webp)
+
+---
+
+Ensuite, pour ma sixième et avant-dernière semaine de stage, j'ai ajouté une page dédiée à l'attribution des rôles auxquels la personne concernée aura accès sur l'intranet **NOVA**, lorsque celle-ci est acceptée par l'administrateur. Pour réaliser cette tâche, on m'a demandé d'expérimenter un framework JavaScript, jamais utiliser auparavant par l'équipe du PATF, [Tom Select](https://tom-select.js.org).
+
+**Qu'est-ce que Tom Select ?**
+
+Tom Select est une bibliothèque JavaScript qui améliore les éléments de liste déroulante (balise `<select>`) en les rendant plus interactifs. Elle offre des fonctionnalités avancées telles que la recherche en temps réel via des API, la sélection multiple d'éléments et l'ajout dynamique d'options. Son intégration améliore considérablement l'ergonomie des formulaires et des interfaces utilisateur.
+
+Dans mon projet, j'ai cherché à établir une communication entre deux listes déroulantes : l'une contenant la liste des agents du _Casier Judiciaire_ et l'autre affichant les rôles d'accès à **Nova** (données en JSON). L'objectif est de mettre à jour automatiquement la liste des rôles associés à une requête lorsqu'un agent est sélectionné, afin d'attribuer et d'afficher les mêmes rôles en temps réel, avec la possibilité d'en ajouter ou d'en supprimer.
+
+![cerber check](/cerber_check.webp)
 
 ---
