@@ -5,14 +5,15 @@ pubDate: "Feb 28 2025"
 heroImage: "/mazedia.webp"
 tags:
   [
-    "TypeScript",
-    "Angular",
-    "HTML",
-    "CSS",
+    "TypeScript 5",
+    "Angular 17",
+    "HTML 5",
+    "CSS 3",
     "Docker",
     "Jenkins",
     "Visual Studio Code",
     "GitHub",
+    "macOs",
   ]
 ---
 

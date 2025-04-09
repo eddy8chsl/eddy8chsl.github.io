@@ -26,6 +26,21 @@ import { Image } from "astro:assets";
           {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
         </h1>
         <p class="py-1 text-1xl">{desc}</p>
+        <div class="mt-2">
+          {
+            tags &&
+              tags.map((tag) => (
+                <a
+                  href={tag.url}
+                  class="badge badge-outline mx-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {tag.name}
+                </a>
+              ))
+          }
+        </div>
       </div>
     </div>
   </a>

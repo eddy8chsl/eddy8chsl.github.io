@@ -5,21 +5,25 @@ pubDate: "Apr 18 2025"
 heroImage: "/casier_judiciaire.webp"
 tags:
   [
-    "PHP",
-    "HTML",
-    "CSS",
-    "Laravel",
-    "JavaScript",
+    "PHP 8.3",
+    "HTML 5",
+    "CSS 3",
+    "Laravel 12",
+    "JavaScript 8",
     "Tom Select",
-    "TailwindCSS",
-    "Boostrap",
+    "TailwindCSS 3",
+    "Boostrap 5",
     "LiveWire",
-    "Laragon",
-    "NGINX",
-    "PostgreSQL",
-    "DBeaver",
+    "Pest",
+    "Playwright",
+    "Laragon 7",
+    "NGINX 1.27",
+    "Debian 12",
+    "PostgreSQL 17.2",
+    "DBeaver 25",
     "Visual Studio Code",
-    "GitLab",
+    "GitLab 17",
+    "Windows 10",
   ]
 ---
 
@@ -42,7 +46,7 @@ Pour mener à bien ma tâche, j’ai dû appréhender un nouveau FrameWork PHP, 
 
 Laravel est un framework PHP open-source, conçu pour le développement d’applications web structurées et évolutives. Il se repose notamment sur une architecture MVC (Modèle-Vue-Contrôleur) et propose un écosystème complet facilitant la gestion des bases de données, l’authentification, le routage et le rendu des vues. Son interface intuitive et ses nombreuses fonctionnalités intégrées, permettent d’optimiser le développement tout en garantissant une sécurité et une évolutivité adaptées aux exigences des projets web.
 
-Également, afin de suivre mon avancement et celle de l'équipe, j'ai assisté chaque jeudi au réunion PATF. Ces rassemblements permettent de suivre l’avancement de chacun et d’avoir une vision globale des projets en cours, notamment à travers des démonstrations techniques. Par la suite, au fur et à mesure de l’avancement de ma mission, j’ai eu l’occasion de participer à ces réunions en réalisant des démonstrations de mon projet.
+Également, afin de suivre mon avancement et celle de l'équipe, j'ai assisté chaque jeudi au réunion PATF. Ces rassemblements permettent de suivre l’avancement de chacun et d’avoir une vision globale des projets en cours, notamment à travers des démonstrations techniques entre les développeurs et supports. Par la suite, au fur et à mesure de l’avancement de ma mission, j’ai eu l’occasion de participer à ces réunions en réalisant des démonstrations de mon projet.
 
 ---
 
