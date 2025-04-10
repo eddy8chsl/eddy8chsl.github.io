@@ -28,7 +28,7 @@ tags:
 ---
 
 Pour ma deuxième année de BTS SIO, j'ai réalisé un stage de 7 semaines. Pour cette seconde expérience professionnelle,
-j'ai intégré le _Casier Judiciaire National_, une institution gouvernementale à Nantes.
+j'ai intégré le _Casier Judiciaire National_, une institution gouvernementale situé à Nantes, au sein du pôle assistance technique et fonctionnelle (PATF).
 
 **Qu'est-ce que le Casier Judiciaire National ?**
 
@@ -37,7 +37,7 @@ Celle-ci enregistre les condamnations pénales, certaines décisions administrat
 
 ---
 
-Dans le cadre de mon stage au pôle assistance technique et fonctionnelle (PATF) du _Casier Judiciaire National_, j'ai eu pour mission, d'optimiser le processus d’authentification de l’intranet de l’organisation, **Nova**. Concrètement, j’ai été chargé de concevoir un formulaire de demande permettant aux utilisateurs de l'intranet d'être reconnu par leur session windows(SSO), au lieu de saisir des identifiants spécifiques à **Nova**.
+Dans le cadre de mon stage au PATF du _Casier Judiciaire National_, j'ai eu pour mission, d'optimiser le processus d’authentification de l’intranet de l’organisation, **Nova**. Concrètement, j’ai été chargé de concevoir un formulaire de demande permettant aux utilisateurs de l'intranet d'être reconnu par leur session windows(SSO), au lieu de saisir des identifiants spécifiques à **Nova**.
 De plus, j'ai dû réaliser une fonctionnalité tier afin d’approuver ou de refuser ces demandes d’accès avec un tableau de bord, à l'équipe informatique du _Casier Judiciaire_.
 Cette solution, nommée **Cerber**, permet alors de simplifier l'accès des agents à l'intranet en utilisant une solution plus adaptative et ergonomique.
 Pour mener à bien ma tâche, j’ai dû appréhender un nouveau FrameWork PHP, Laravel.
@@ -46,7 +46,9 @@ Pour mener à bien ma tâche, j’ai dû appréhender un nouveau FrameWork PHP, 
 
 Laravel est un framework PHP open-source, conçu pour le développement d’applications web structurées et évolutives. Il se repose notamment sur une architecture MVC (Modèle-Vue-Contrôleur) et propose un écosystème complet facilitant la gestion des bases de données, l’authentification, le routage et le rendu des vues. Son interface intuitive et ses nombreuses fonctionnalités intégrées, permettent d’optimiser le développement tout en garantissant une sécurité et une évolutivité adaptées aux exigences des projets web.
 
-Également, afin de suivre mon avancement et celle de l'équipe, j'ai assisté chaque jeudi au réunion PATF. Ces rassemblements permettent de suivre l’avancement de chacun et d’avoir une vision globale des projets en cours, notamment à travers des démonstrations techniques entre les développeurs et supports. Par la suite, au fur et à mesure de l’avancement de ma mission, j’ai eu l’occasion de participer à ces réunions en réalisant des démonstrations de mon projet.
+Également, afin de suivre mon avancement et celle de l'équipe, j'ai assisté chaque jeudi au réunion du PATF. Ces rassemblements permettent de suivre l’avancement de chacun et d’avoir une vision globale des projets en cours, notamment à travers des démonstrations techniques entre les développeurs et supports. Par la suite, au fur et à mesure de l’avancement de ma mission, j’ai eu l’occasion de participer à ces réunions en réalisant des démonstrations de mon projet, ce qui m'a permis de m'intégrer plus facilement au sein du pôle.
+
+![trombinocospe](/trombinocospe.webp)
 
 ---
 
@@ -148,3 +150,20 @@ Dans mon projet, j'ai cherché à établir une communication entre deux listes d
 ![cerber check](/cerber_check.webp)
 
 ---
+
+Enfin, durant ma dernière semaine au sein du Casier Judiciaire National, j'ai été chargé d'effectuer des tests pour le projet **Cerber**, en utilisant notamment les technologies Pest (avec LiveWire) et Playwright.
+
+**Qu'est-ce que Pest et Playwright ?**
+
+Pest est un framework de tests conçu pour les applications PHP, facilitant la vérification du bon fonctionnement du back-end. Cette partie inclut la logique métier, la gestion des bases de données et les interactions côté serveur.
+Playwright, quant à lui, est un outil destiné à tester l'interface utilisateur des applications web. Il permet d'automatiser des actions courantes telles que cliquer sur des boutons, remplir des formulaires ou naviguer entre les pages. Cela garantit la qualité et la fiabilité du front-end de l'application, grâce à la simulation.
+
+Dans un premier temps, j'ai utilisé Playwright pour tester l'interface utilisateur de l'application. Cela implique la création d'une requête, sa visualisation sur le tableau de bord, puis son édition et, enfin, sa suppression, en suivant les étapes du processus CRUD. En complément, j'ai effectué un autre test, cette fois pour vérifier la disponibilité des agents.
+Ensuite, Même déroulement avec Pest, mais cette fois du côté back-end, en vérifiant la gestion de mes tables "requêtes" ainsi que celle de "agents". Enfin, j'ai utilisé LiveWire Test, afin de réalisé des tests similaires couvrant à la fois le back-end et le front-end. Ces tests consistent à actionner un élément externe afin de vérifier l'affichage d'un élément sur l'interface utilisateur. Cette démarche a été particulièrement utile pour vérifier mon système de filtrage de mon tableau de bord.
+
+![cerber playwright](/cerber_playwright.webp)
+![cerber pest](/cerber_pest.webp)
+
+---
+
+Pour conclure, ce stage au _Casier Judiciaire National_ m'a offert une occasion précieuse de renforcer mes compétences en découvrant et en maîtrisant diverses technologies telles que Laravel, LiveWire, Tom Select, Playwright, et bien d'autres. De plus, cette expérience m'a offert l'opportunité de travailler dans un environnement unique, distinct de celui d'une entreprise classique, ce qui m'a permis d'appréhender des dynamiques professionnelles différentes et de m'adapter à un cadre de travail atypique.

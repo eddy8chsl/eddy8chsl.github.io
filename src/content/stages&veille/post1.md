@@ -87,4 +87,4 @@ Jenkins est un outil open source de serveur d'automatisation. Il aide à automat
 
 ---
 
-Pour conclure, ce stage chez _Mazedia_ m'a permis de développer mes compétences techniques, notamment en Angular et Docker, ainsi que de mieux comprendre le processus de développement d'une application en sein d'un environnement professionnel. Grâce à cette expérience, j'ai non seulement renforcé mes connaissances en programmation, mais j'ai aussi appris à gérer un projet en toute autonomie. Ce stage a été une étape clé dans ma formation, et m'a conforté dans mon choix de carrière dans le domaine du développement informatique.
+Pour conclure, ce stage chez Mazedia m'a permis de développer mes compétences techniques, notamment en Angular et Docker, tout en approfondissant ma compréhension des processus de développement d'application dans un environnement professionnel. Grâce à cette expérience, j'ai non seulement consolidé mes connaissances en programmation, mais aussi renforcé mes soft skills, en particulier la gestion autonome de projets. Ce stage a été une étape clé dans ma formation et a conforté mon choix de carrière dans le développement informatique.
