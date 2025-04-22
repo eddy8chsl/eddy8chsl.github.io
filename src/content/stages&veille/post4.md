@@ -22,6 +22,7 @@ Cette application, est une plateforme conçue pour faciliter la programmation et
 Notre objectif, améliorer l'accessibilité et l'ergonomie du site, de renforcer sa sécurité et ajouter de nouvelles fonctionnalités afin de répondre aux attentes du client avec le projet **Ministages**.
 
 ![ministages index](/ministages_index.webp)
+![ministages liste](/ministages_liste.webp)
 
 ---
 
