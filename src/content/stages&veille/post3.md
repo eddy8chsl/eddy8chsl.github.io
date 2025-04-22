@@ -1,14 +1,14 @@
 ---
 title: "Veille Informatique"
 description: "Renseignements sur le secteur de l'informatique avec l'appui des veilles informatiques"
-pubDate: "Feb 15 2025"
+pubDate: "Feb 20 2025"
 heroImage: "/veille_info.webp"
 tags: ["Curiosité", "Information", "Actualité"]
 ---
 
 Dans le domaine du développement et de l’informatique en général, il est primordial de se tenir informé des dernières tendances, outils et bonnes pratiques. Pour cela, j’ai adopté plusieurs méthodes afin d’assurer une veille technologique efficace et régulière.
 
-Tout d’abord, je m’abonne à plusieurs newsletters spécialisées, notamment dans l'univers du code, qui me permettent de recevoir chaque semaine des informations pertinentes directement dans ma boîte mail :
+Tout d’abord, je m’abonne à plusieurs newsletters spécialisées, notamment dans l'univers du code, qui me permettent de recevoir chaque semaine des informations pertinentes directement dans ma boîte mail, comme :
 
 ---
 
