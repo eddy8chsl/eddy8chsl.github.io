@@ -38,7 +38,7 @@ Durant mon stage, j'ai du conceptionner une application mobile nommée **Wezit C
 
 **Qu'est-ce que l'Angular ?**
 
-Angular est un framework JavaScript open-source, développé par Google, qui permet de créer des applications web dynamiques et robustes.
+Angular est un framework TypeScript open-source, développé par Google, qui permet de créer des applications web dynamiques et robustes.
 Il est principalement utilisé pour développer des interfaces utilisateur basées sur une architecture de composants.
 Angular facilite le développement de grandes applications web tout en assurant une bonne performance.
 
